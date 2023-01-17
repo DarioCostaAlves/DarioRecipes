@@ -1,4 +1,4 @@
-package com.example.DarioRecipes
+package com.example.DarioRecipes.data.network
 
 import com.example.DarioRecipes.models.FoodRecipe
 import retrofit2.Response
