@@ -9,12 +9,15 @@ import com.example.DarioRecipes.R
 
 class RecipesFragment : Fragment() {
 
+    private lateinit var  mView: View
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_recipes, container, false)
-    }
+        mView = inflater.inflate(R.layout.fragment_recipes, container, false)
 
+        return mView
+    }
 }
